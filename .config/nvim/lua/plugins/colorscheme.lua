@@ -66,6 +66,9 @@ return {
         highlights["@lsp.type.comment"] = {
           fg = "#007947",
         }
+        highlights["@lsp.type.enum"] = {
+          fg = "#65c294",
+        }
         highlights["@string.documentation"] = {
           fg = "#1d953f",
         }
