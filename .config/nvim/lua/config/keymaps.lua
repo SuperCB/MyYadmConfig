@@ -36,3 +36,8 @@ map({ "n", "o", "x" }, "w", "<cmd>lua require('spider').motion('w')<CR>", { desc
 map({ "n", "o", "x" }, "e", "<cmd>lua require('spider').motion('e')<CR>", { desc = "Spider-e" })
 map({ "n", "o", "x" }, "b", "<cmd>lua require('spider').motion('b')<CR>", { desc = "Spider-b" })
 map({ "n", "o", "x" }, "ge", "<cmd>lua require('spider').motion('ge')<CR>", { desc = "Spider-ge" })
+-- Lua
+map("n", "gld", "<CMD>Glance definitions<CR>")
+map("n", "glr", "<CMD>Glance references<CR>")
+map("n", "gly", "<CMD>Glance type_definitions<CR>")
+map("n", "glm", "<CMD>Glance implementations<CR>")
