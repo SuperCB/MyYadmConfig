@@ -179,6 +179,16 @@ return {
         highlights["@keyword.function.python"] = {
           fg = "#009ad6",
         }
+        highlights["@float"] = {
+          fg = "#fafad2",
+        }
+        highlights["@function.python"] = {
+          fg = "#faa755",
+        }
+        highlights["@type.python"] = {
+          fg = "#f58220",
+        }
+
         highlights.Keyword = {
           fg = "#FF99CC",
 
