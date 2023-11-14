@@ -67,7 +67,10 @@ return {
           fg = "#007947",
         }
         highlights["@lsp.type.enum"] = {
-          fg = "#65c294",
+          fg = "#afb4db",
+        }
+        highlights["@lsp.type.enumMember"] = {
+          fg = "#afb4db",
         }
         highlights["@string.documentation"] = {
           fg = "#1d953f",
@@ -91,7 +94,7 @@ return {
           fg = "#FF4500",
         }
         highlights["@type.qualifier"] = {
-          fg = "#00bfff",
+          fg = "#ef5b9c",
         }
         highlights["@lsp.type.operator"] = {
           fg = "#f8aba6",
@@ -189,6 +192,9 @@ return {
           fg = "#f58220",
         }
 
+        highlights["rainbowcol1"] = {
+          fg = "#9acd39",
+        }
         highlights.Keyword = {
           fg = "#FF99CC",
 

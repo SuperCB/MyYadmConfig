@@ -33,6 +33,11 @@ return {{
                     icon = "",
                     color = "#81e043",
                     name = "Cuda"
+                },
+                ["ipynb"]={
+                    icon="",
+                    color="#faa755",
+                    name="Ipynb"
                 }
             }
         }
