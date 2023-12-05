@@ -1,18 +1,3 @@
--- return {
---   {
---     "nvimdev/indentmini.nvim",
---     event = "BufEnter",
---     config = function()
---       require("indentmini").setup({
---         char = "|",
---         exclude = {
---           "erlang",
---           "markdown",
---         },
---       })
---     end,
---   },
--- }
 return {
   {
     "lukas-reineke/indent-blankline.nvim",
@@ -50,7 +35,7 @@ return {
           highlight = highlight,
           remove_blankline_trail = false,
         },
-        scope = { highlight = highlight, char = "_" },
+        scope = { highlight = highlight, char = "|" },
       })
     end,
   },
