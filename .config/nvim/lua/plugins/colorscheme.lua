@@ -173,11 +173,16 @@ return {
           bg = "#8552a1",
           fg = "#fcf16e",
         }
+        
         highlights["@keyword"] = {
           fg = "#FF99CC",
-          style = {
-            italic = false,
-          },
+
+        }
+        highlights["@type.qualifier"] = {
+          fg = "#00ced1",
+        }
+        highlights["@keyword.return"] = {
+          fg = "#6495ed",
         }
         highlights["@keyword.function.python"] = {
           fg = "#009ad6",
