@@ -54,11 +54,14 @@ return {
           fg = "#fdb933",
         }
 
+        highlights["@function.call"] = {
+          fg = "#ff8c00",
+        }
         highlights["@lsp.type.function"] = {
-          fg = "#da70d6",
+          fg = "#ff8c00",
         }
         highlights["@lsp.type.macro"] = {
-          fg = "#9370db",
+          fg = "#ff1493",
         }
         highlights.Comment = {
           fg = "#007947",
@@ -87,6 +90,9 @@ return {
         highlights["@namespace"] = {
           fg = "#ff00ff",
         }
+        highlights["@function.macro"] = {
+          fg = "#33a3dc",
+        }
         highlights["@lsp.type.namespace"] = {
           link = "@namespace",
         }
@@ -108,8 +114,11 @@ return {
         highlights["@lsp.type.property"] = {
           fg = "#00ffff",
         }
+        highlights["@method.call"] = {
+          fg = "#da70d6",
+        }
         highlights["@lsp.type.method"] = {
-          fg = "#ff8c00",
+          fg = "#da70d6",
         }
         highlights["@storageclass"] = {
           fg = "#4169e1",
@@ -145,7 +154,7 @@ return {
           fg = "#f2eada",
         }
         highlights["@lsp.type.macro.cuda"] = {
-          fg = "#ed1941",
+          fg = "#ff1493",
         }
         highlights["@Type"] = {
           fg = "#f4a460",
@@ -173,10 +182,9 @@ return {
           bg = "#8552a1",
           fg = "#fcf16e",
         }
-        
+
         highlights["@keyword"] = {
           fg = "#FF99CC",
-
         }
         highlights["@type.qualifier"] = {
           fg = "#00ced1",
