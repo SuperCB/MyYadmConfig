@@ -90,8 +90,8 @@ return {
         highlights["@namespace"] = {
           fg = "#ff00ff",
         }
-        highlights["@function.macro"] = {
-          fg = "#33a3dc",
+        highlights["@preproc"] = {
+          fg = "#228fbd",
         }
         highlights["@lsp.type.namespace"] = {
           link = "@namespace",
@@ -191,6 +191,9 @@ return {
         }
         highlights["@keyword.return"] = {
           fg = "#6495ed",
+        }
+        highlights["@keyword.return.python"] = {
+          fg = "#FFB6C1",
         }
         highlights["@keyword.function.python"] = {
           fg = "#009ad6",
