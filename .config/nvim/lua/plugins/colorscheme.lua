@@ -187,7 +187,7 @@ return {
           fg = "#00ced1",
         }
         highlights["@type.qualifier"] = {
-          fg = "#4169e1",
+          fg = "#00ced1",
         }
         highlights["@keyword.return"] = {
           fg = "#6495ed",
