@@ -18,8 +18,8 @@ return {
             ["<Up>"] = actions.previous,
             ["<Tab>"] = actions.next_location, -- Bring the cursor to the next location skipping groups in the list
             ["<S-Tab>"] = actions.previous_location, -- Bring the cursor to the previous location skipping groups in the list
-            ["<C-u>"] = actions.preview_scroll_win(5),
-            ["<C-d>"] = actions.preview_scroll_win(-5),
+            ["<C-u>"] = actions.preview_scroll_win(10),
+            ["<C-d>"] = actions.preview_scroll_win(-10),
             ["v"] = actions.jump_vsplit,
             ["x"] = actions.jump_split,
             ["t"] = actions.jump_tab,
