@@ -70,7 +70,7 @@ return {
           fg = "#007947",
         }
         highlights["@lsp.type.enum"] = {
-          fg = "#48d1cc",
+          fg = "#3cb371",
         }
         highlights["@lsp.type.enumMember"] = {
           fg = "#87cefa",
@@ -86,6 +86,9 @@ return {
         }
         highlights["@exception"] = {
           fg = "#1e90ff",
+        }
+        highlights["@boolean"] = {
+          fg = "#ff69b4",
         }
         highlights["@namespace"] = {
           fg = "#ff00ff",
@@ -159,6 +162,9 @@ return {
         highlights["@lsp.type.type.go"] = {
           fg = "#33a3dc",
         }
+        highlights["@lsp.type.type.cpp"] = {
+          fg = "#f4a460",
+        }
         highlights["@lsp.typemod.type.defaultLibrary"] = {
           fg = "#F08080",
         }
@@ -183,11 +189,14 @@ return {
         highlights["@keyword"] = {
           fg = "#FF99CC",
         }
+        highlights["@keyword.return.cpp"] = {
+          fg = "#ff7f50",
+        }
         highlights["Special"] = {
           fg = "#00ced1",
         }
         highlights["@type.qualifier"] = {
-          fg = "#00ced1",
+          fg = "#4169e1",
         }
         highlights["@keyword.return"] = {
           fg = "#6495ed",
@@ -206,6 +215,9 @@ return {
         }
         highlights["@type.python"] = {
           fg = "#f58220",
+        }
+        highlights["@attribute.cpp"] = {
+          fg = "#8a2be2",
         }
 
         highlights["rainbowcol1"] = {
