@@ -130,7 +130,7 @@ return {
           fg = "#fcaf17",
         }
         highlights["@lsp.type.typeparameter"] = {
-          fg = "#f0e68c",
+          fg = "#ffce7b",
         }
         highlights["@lsp.type.parameter"] = {
           fg = "#ffe600",
@@ -219,6 +219,9 @@ return {
         }
         highlights["rainbowcol1"] = {
           fg = "#9acd39",
+        }
+        highlights["@keyword.operator"] = {
+          fg = "#48d1cc",
         }
         highlights.Keyword = {
           fg = "#FF99CC",
