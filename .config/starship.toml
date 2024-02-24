@@ -75,6 +75,7 @@ format = '[+$added]($added_style)/[-$deleted]($deleted_style) '
 [git_commit]
 commit_hash_length = 4
 tag_symbol = '🔖 '
+tag_disabled=false
 
 [cmd_duration]
 style = 'fg:#ff7f50'

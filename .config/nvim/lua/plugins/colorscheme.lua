@@ -51,7 +51,7 @@ return {
           fg = "#afdfe4",
         }
         highlights["@preproc"] = {
-          fg = "#fdb933",
+          fg = "#ff8c00",
         }
 
         highlights["@function.call"] = {
@@ -73,7 +73,7 @@ return {
           fg = "#3cb371",
         }
         highlights["@lsp.type.enumMember"] = {
-          fg = "#87cefa",
+          fg = "#b0e0e6",
         }
         highlights["@string.documentation"] = {
           fg = "#1d953f",
@@ -85,16 +85,13 @@ return {
           fg = "#00ae9d",
         }
         highlights["@exception"] = {
-          fg = "#1e90ff",
+          fg = "#ff69b4",
         }
         highlights["@boolean"] = {
           fg = "#ff69b4",
         }
         highlights["@namespace"] = {
           fg = "#ff00ff",
-        }
-        highlights["@preproc"] = {
-          fg = "#228fbd",
         }
         highlights["@lsp.type.namespace"] = {
           link = "@namespace",
@@ -105,8 +102,8 @@ return {
         highlights["@lsp.type.operator"] = {
           fg = "#f8aba6",
         }
-        highlights["@keyword.operator"] = {
-          fg = "#f8aba6",
+        highlights["@operator.cpp"] = {
+          fg = "#4169e1",
         }
         highlights["@type.builtin"] = {
           fg = "#33a3dc",
@@ -133,10 +130,7 @@ return {
           fg = "#fcaf17",
         }
         highlights["@lsp.type.typeparameter"] = {
-          fg = "#d71345",
-          style = {
-            bold = true,
-          },
+          fg = "#f0e68c",
         }
         highlights["@lsp.type.parameter"] = {
           fg = "#ffe600",
@@ -163,16 +157,19 @@ return {
           fg = "#33a3dc",
         }
         highlights["@lsp.type.type.cpp"] = {
-          fg = "#f4a460",
+          fg = "#00bfff",
         }
         highlights["@lsp.typemod.type.defaultLibrary"] = {
-          fg = "#F08080",
+          fg = "#ffa07a",
         }
         highlights["@lsp.typemod.class.defaultLibrary"] = {
-          fg = "#ffce7b",
+          fg = "#F08080",
         }
         highlights["@lsp.typemod.function.defaultLibrary"] = {
           fg = "#f3715c",
+        }
+        highlights["@punctuation.special"] = {
+          fg = "#ff1493",
         }
         highlights["@number"] = {
           fg = "#fafad2",
@@ -190,16 +187,13 @@ return {
           fg = "#FF99CC",
         }
         highlights["@keyword.return.cpp"] = {
-          fg = "#ff7f50",
+          fg = "#1e90ff",
         }
         highlights["Special"] = {
           fg = "#00ced1",
         }
         highlights["@type.qualifier"] = {
-          fg = "#4169e1",
-        }
-        highlights["@keyword.return"] = {
-          fg = "#6495ed",
+          fg = "#00ced1",
         }
         highlights["@keyword.return.python"] = {
           fg = "#FFB6C1",
@@ -217,9 +211,12 @@ return {
           fg = "#f58220",
         }
         highlights["@attribute.cpp"] = {
-          fg = "#8a2be2",
+          fg = "#87cefa",
         }
 
+        highlights["@method.python"] = {
+          fg = "#ffa07a",
+        }
         highlights["rainbowcol1"] = {
           fg = "#9acd39",
         }
