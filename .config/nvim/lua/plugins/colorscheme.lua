@@ -70,10 +70,10 @@ return {
           fg = "#007947",
         }
         highlights["@lsp.type.enum"] = {
-          fg = "#3cb371",
+          fg = "#1e90ff",
         }
         highlights["@lsp.type.enumMember"] = {
-          fg = "#b0e0e6",
+          fg = "#87cefa",
         }
         highlights["@string.documentation"] = {
           fg = "#1d953f",
@@ -103,7 +103,7 @@ return {
           fg = "#f8aba6",
         }
         highlights["@operator.cpp"] = {
-          fg = "#4169e1",
+          fg = "#ff7f50",
         }
         highlights["@type.builtin"] = {
           fg = "#33a3dc",
@@ -130,7 +130,7 @@ return {
           fg = "#fcaf17",
         }
         highlights["@lsp.type.typeparameter"] = {
-          fg = "#ffce7b",
+          fg = "#f3715c",
         }
         highlights["@lsp.type.parameter"] = {
           fg = "#ffe600",
@@ -162,11 +162,14 @@ return {
         highlights["@lsp.typemod.type.defaultLibrary"] = {
           fg = "#ffa07a",
         }
+        highlights["@lsp.typemod.variable.defaultLibrary"] = {
+          fg = "#7bbfea",
+        }
         highlights["@lsp.typemod.class.defaultLibrary"] = {
           fg = "#F08080",
         }
         highlights["@lsp.typemod.function.defaultLibrary"] = {
-          fg = "#f3715c",
+          fg = "#fab27b",
         }
         highlights["@punctuation.special"] = {
           fg = "#ff1493",
