@@ -130,7 +130,7 @@ return {
           fg = "#fcaf17",
         }
         highlights["@lsp.type.typeparameter"] = {
-          fg = "#f3715c",
+          fg = "#ffdead",
         }
         highlights["@lsp.type.parameter"] = {
           fg = "#ffe600",
@@ -157,7 +157,7 @@ return {
           fg = "#33a3dc",
         }
         highlights["@lsp.type.type.cpp"] = {
-          fg = "#00bfff",
+          fg = "#d2691e",
         }
         highlights["@lsp.typemod.type.defaultLibrary"] = {
           fg = "#ffa07a",
@@ -166,7 +166,7 @@ return {
           fg = "#7bbfea",
         }
         highlights["@lsp.typemod.class.defaultLibrary"] = {
-          fg = "#F08080",
+          fg = "#ff7f50",
         }
         highlights["@lsp.typemod.function.defaultLibrary"] = {
           fg = "#fab27b",
