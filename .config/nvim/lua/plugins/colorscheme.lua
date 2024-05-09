@@ -40,6 +40,9 @@ return {
         highlights["LineNrAbove"] = {
           fg = "#33a3dc",
         }
+        highlights["@constant.python"] = {
+          fg = "#d93a49",
+        }
         highlights["LineNrBelow"] = {
           fg = "#fcf16e",
         }
@@ -51,10 +54,13 @@ return {
           fg = "#afdfe4",
         }
         highlights["@preproc"] = {
-          fg = "#ff8c00",
+          fg = "#d71345",
         }
 
         highlights["@function.call"] = {
+          fg = "#ff8c00",
+        }
+        highlights["@function.macro"] = {
           fg = "#ff8c00",
         }
         highlights["@lsp.type.function"] = {
@@ -97,7 +103,7 @@ return {
           link = "@namespace",
         }
         highlights["@lsp.type.class"] = {
-          fg = "#FF4500",
+          fg = "#f26522",
         }
         highlights["@lsp.type.operator"] = {
           fg = "#f8aba6",
@@ -130,10 +136,13 @@ return {
           fg = "#fcaf17",
         }
         highlights["@lsp.type.typeparameter"] = {
-          fg = "#ffdead",
+          fg = "#ef4136",
         }
         highlights["@lsp.type.parameter"] = {
           fg = "#ffe600",
+        }
+        highlights["@keyword.import"] = {
+          fg = "#32cd32",
         }
         highlights["@parameter"] = {
           fg = "#ffe600",
@@ -144,6 +153,9 @@ return {
         highlights["@repeat"] = {
           fg = "#ef5b9c",
         }
+        highlights["@lsp.typemod.function.defaultLibrary"] = {
+          fg = "#fef4c4",
+        }
         highlights["@Constant"] = {
           fg = "#f2eada",
         }
@@ -153,38 +165,12 @@ return {
         highlights["@Type"] = {
           fg = "#f4a460",
         }
-        highlights["@lsp.type.type.go"] = {
-          fg = "#33a3dc",
+        highlights["@lsp.type.type"] = {
+          fg = "#90ee90",
         }
-        highlights["@lsp.type.type.cpp"] = {
-          fg = "#d2691e",
-        }
-        highlights["@lsp.typemod.type.defaultLibrary"] = {
-          fg = "#ffa07a",
-        }
-        highlights["@lsp.typemod.variable.defaultLibrary"] = {
-          fg = "#7bbfea",
-        }
-        highlights["@lsp.typemod.class.defaultLibrary"] = {
-          fg = "#ff7f50",
-        }
-        highlights["@lsp.typemod.function.defaultLibrary"] = {
-          fg = "#fab27b",
-        }
-        highlights["@punctuation.special"] = {
-          fg = "#ff1493",
-        }
-        highlights["@number"] = {
-          fg = "#fafad2",
-        }
-        highlights.CursorLineNr = {
-          bg = "#ef5b9c",
-          fg = "#fffef9",
-        }
-        highlights.Folded = {
-          bg = "#8552a1",
-          fg = "#fcf16e",
-        }
+        -- highlights["@lsp.type.type"] = {
+        --   fg = "#d2691e",
+        -- }
 
         highlights["@keyword"] = {
           fg = "#FF99CC",
