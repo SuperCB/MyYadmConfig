@@ -46,11 +46,17 @@ return {
         highlights["LineNrBelow"] = {
           fg = "#fcf16e",
         }
-
+        highlights.CursorLineNr = {
+          bg = "#ef5b9c",
+          fg = "#fffef9",
+        }
         highlights["@lsp.type.variable"] = {
-          fg = "#afdfe4",
+          fg = "#ffe600",
         }
         highlights["@variable"] = {
+          fg = "#afdfe4",
+        }
+        highlights["@variable.parameter.python"] = {
           fg = "#afdfe4",
         }
         highlights["@preproc"] = {
@@ -62,6 +68,9 @@ return {
         }
         highlights["@function.macro"] = {
           fg = "#ff8c00",
+        }
+        highlights["@keyword.conditional.python"] = {
+          fg = "#ef4136",
         }
         highlights["@lsp.type.function"] = {
           fg = "#ff8c00",
@@ -138,6 +147,12 @@ return {
         highlights["@lsp.type.typeparameter"] = {
           fg = "#ef4136",
         }
+        highlights["@keyword.repeat.python"] = {
+          fg = "#f05b72",
+        }
+        highlights["@keyword.exception.python"] = {
+          fg = "#33a3dc",
+        }
         highlights["@lsp.type.parameter"] = {
           fg = "#ffe600",
         }
@@ -168,9 +183,6 @@ return {
         highlights["@lsp.type.type"] = {
           fg = "#90ee90",
         }
-        -- highlights["@lsp.type.type"] = {
-        --   fg = "#d2691e",
-        -- }
 
         highlights["@keyword"] = {
           fg = "#FF99CC",
@@ -231,23 +243,22 @@ return {
           fg = "#ffd400",
         }
 
-        -- Illuminate
-        highlights.illuminatedWord = {
+        highlights.IlluminatedWord = {
 
+          fg = "#ffa07a",
           bg = "#fcf16e",
-          fg = "#8552a1",
         }
-
+        --
         highlights.IlluminatedWordText = {
-          fg = "#8552a1",
+          fg = "#ffa07a",
           bg = "#fcf16e",
         }
         highlights.IlluminatedWordRead = {
-          fg = "#8552a1",
+          fg = "#ffa07a",
           bg = "#fcf16e",
         }
         highlights.IlluminatedWordWrite = {
-          fg = "#8552a1",
+          fg = "#ffa07a",
           bg = "#fcf16e",
         }
       end,
