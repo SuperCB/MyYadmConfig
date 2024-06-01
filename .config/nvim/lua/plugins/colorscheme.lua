@@ -51,7 +51,7 @@ return {
           fg = "#fffef9",
         }
         highlights["@lsp.type.variable"] = {
-          fg = "#ffe600",
+          fg = "#afdfe4",
         }
         highlights["@variable"] = {
           fg = "#afdfe4",
@@ -59,8 +59,8 @@ return {
         highlights["@variable.parameter.python"] = {
           fg = "#afdfe4",
         }
-        highlights["@preproc"] = {
-          fg = "#d71345",
+        highlights["PreProc"] = {
+          fg = "#32cd32",
         }
 
         highlights["@function.call"] = {
@@ -72,8 +72,11 @@ return {
         highlights["@keyword.conditional.python"] = {
           fg = "#ef4136",
         }
+        highlights["@keyword.conditional"] = {
+          fg = "#d93a49",
+        }
         highlights["@lsp.type.function"] = {
-          fg = "#ff8c00",
+          fg = "#f26522",
         }
         highlights["@lsp.type.macro"] = {
           fg = "#ff1493",
@@ -112,7 +115,7 @@ return {
           link = "@namespace",
         }
         highlights["@lsp.type.class"] = {
-          fg = "#f26522",
+          fg = "#ffa07a",
         }
         highlights["@lsp.type.operator"] = {
           fg = "#f8aba6",
@@ -147,8 +150,8 @@ return {
         highlights["@lsp.type.typeparameter"] = {
           fg = "#ef4136",
         }
-        highlights["@keyword.repeat.python"] = {
-          fg = "#f05b72",
+        highlights["@keyword.repeat"] = {
+          fg = "#f391a9",
         }
         highlights["@keyword.exception.python"] = {
           fg = "#33a3dc",
@@ -221,6 +224,9 @@ return {
         highlights["rainbowcol1"] = {
           fg = "#9acd39",
         }
+        highlights["rainbowcol7"] = {
+          fg = "#33a3dc",
+        }
         highlights["@keyword.operator"] = {
           fg = "#48d1cc",
         }
@@ -245,20 +251,20 @@ return {
 
         highlights.IlluminatedWord = {
 
-          fg = "#ffa07a",
+          fg = "#ffd700",
           bg = "#fcf16e",
         }
         --
         highlights.IlluminatedWordText = {
-          fg = "#ffa07a",
+          fg = "#ffd700",
           bg = "#fcf16e",
         }
         highlights.IlluminatedWordRead = {
-          fg = "#ffa07a",
+          fg = "#ffd700",
           bg = "#fcf16e",
         }
         highlights.IlluminatedWordWrite = {
-          fg = "#ffa07a",
+          fg = "#ffd700",
           bg = "#fcf16e",
         }
       end,
