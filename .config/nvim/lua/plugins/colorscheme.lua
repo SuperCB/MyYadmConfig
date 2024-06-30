@@ -59,6 +59,9 @@ return {
         highlights["@variable.parameter.python"] = {
           fg = "#afdfe4",
         }
+        highlights["@variable.parameter.rust"] = {
+          fg = "#ffe600",
+        }
         highlights["PreProc"] = {
           fg = "#32cd32",
         }
@@ -69,6 +72,9 @@ return {
         highlights["@function.macro"] = {
           fg = "#ff8c00",
         }
+        highlights["@function.macro.rust"] = {
+          fg = "#4169e1",
+        }
         highlights["@keyword.conditional.python"] = {
           fg = "#ef4136",
         }
@@ -76,7 +82,10 @@ return {
           fg = "#d93a49",
         }
         highlights["@lsp.type.function"] = {
-          fg = "#f26522",
+          fg = "#ffa07a",
+        }
+        highlights["@lsp.type.lifetime.rust"] = {
+          fg = "#ff1493",
         }
         highlights["@lsp.type.macro"] = {
           fg = "#ff1493",
@@ -112,13 +121,19 @@ return {
           fg = "#ff00ff",
         }
         highlights["@lsp.type.namespace"] = {
-          link = "@namespace",
+          fg = "#ff00ff",
+        }
+        highlights["@lsp.type.namespace.rust"] = {
+          fg = "#ff0000",
         }
         highlights["@lsp.type.class"] = {
-          fg = "#ffa07a",
+          fg = "#f26522",
         }
         highlights["@lsp.type.operator"] = {
           fg = "#f8aba6",
+        }
+        highlights["@lsp.type.operator.cpp"] = {
+          fg = "#ffd700",
         }
         highlights["@operator.cpp"] = {
           fg = "#ff7f50",
@@ -135,6 +150,12 @@ return {
         highlights["@lsp.type.method"] = {
           fg = "#da70d6",
         }
+        highlights["@lsp.type.struct.rust"] = {
+          fg = "#f26522",
+        }
+        highlights["@lsp.type.interface.rust"] = {
+          fg = "#00ff7f",
+        }
         highlights["@storageclass"] = {
           fg = "#4169e1",
         }
@@ -145,13 +166,13 @@ return {
           fg = "#ffe600",
         }
         highlights["@lsp.type.decorator.rust"] = {
-          fg = "#fcaf17",
+          fg = "#008b8b",
         }
         highlights["@lsp.type.typeparameter"] = {
           fg = "#ef4136",
         }
         highlights["@keyword.repeat"] = {
-          fg = "#f391a9",
+          fg = "#d93a49",
         }
         highlights["@keyword.exception.python"] = {
           fg = "#33a3dc",
@@ -205,6 +226,9 @@ return {
         highlights["@keyword.function.python"] = {
           fg = "#009ad6",
         }
+        -- highlights["@keyword.function.rust"] = {
+        --   fg = "#ff00ff",
+        -- }
         highlights["@float"] = {
           fg = "#fafad2",
         }
@@ -216,6 +240,9 @@ return {
         }
         highlights["@attribute.cpp"] = {
           fg = "#87cefa",
+        }
+        highlights["@attribute.python"] = {
+          fg = "#00c78c",
         }
 
         highlights["@method.python"] = {
